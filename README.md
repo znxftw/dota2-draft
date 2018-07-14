@@ -24,4 +24,4 @@ If you wish to collect the data manually,
 ```
 pip install dota2api
 ```
-- Run the script linked above after changing Initialise() to Initialise(*"your API key"*)
+- Run the script linked above after changing Initialise() to Initialise(*"your API key"*) and modifying the script as you wish.
