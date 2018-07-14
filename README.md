@@ -15,7 +15,7 @@ With this knowledge, we shall consider only those attributes which may affect th
 
 ## 1. Collecting the Data
 
-For collecting the data, we need to an API to access the Dota 2 Database. We will be using [Dota2Api](http://dota2api.readthedocs.io/en/latest/) for the same. A [gist from da-steve101](https://gist.github.com/da-steve101/1a7ae319448db431715bd75391a66e1b) had the necessary template for extracting *'N'* matches from the database which specify the required parameters. We will be using the gist with a few modifications for our attributes to extract.
+For collecting the data, we need an API to access the Dota 2 Database. We will be using [Dota2Api](http://dota2api.readthedocs.io/en/latest/) for the same. A [gist from da-steve101](https://gist.github.com/da-steve101/1a7ae319448db431715bd75391a66e1b) had the necessary template for extracting *'N'* matches from the database which specify the required parameters. We will be using the gist with a few modifications for our attributes to extract.
 
 If you wish to collect the data manually,
 - [Get an API Key](https://steamcommunity.com/dev/apikey)
