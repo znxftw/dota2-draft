@@ -14,3 +14,14 @@ The matchmaking system teams up players of roughly equal skill with each other, 
 With this knowledge, we shall consider only those attributes which may affect the outcome of a game in our final model. We shall also discard factors that change during the course of the game such as Kills / Deaths which may directly affect the game. However we shall consider the duration of the game, as some heroes have advantages later into the game rather than earlier.
 
 ## 1. Collecting the Data
+
+For collecting the data, we need to an API to access the Dota 2 Database. We will be using [Dota2Api](http://dota2api.readthedocs.io/en/latest/) for the same. A [gist from da-steve101](https://gist.github.com/da-steve101/1a7ae319448db431715bd75391a66e1b) had the necessary template for extracting *'N'* matches from the database which specify the required parameters. We will be using the gist with a few modifications for our attributes to extract.
+
+If you wish to collect the data manually,
+- [Get an API Key](https://steamcommunity.com/dev/apikey)
+- Install dota2api with the following command
+
+```
+pip install dota2api
+```
+- Run the script linked above after changing Initialise() to Initialise(*"your API key"*)
