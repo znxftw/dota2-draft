@@ -11,6 +11,6 @@ There are 115 heroes as of 14-07-2018 in Dota 2 and each hero is countered by an
 
 The matchmaking system teams up players of roughly equal skill with each other, hence the variance in any other factor affecting the outcome is low.
 
-With this knowledge, we shall consider only those attributes which may affect the outcome of a game in our final model.
+With this knowledge, we shall consider only those attributes which may affect the outcome of a game in our final model. We shall also discard factors that change during the course of the game such as Kills / Deaths which may directly affect the game. However we shall consider the duration of the game, as some heroes have advantages later into the game rather than earlier.
 
 ## 1. Collecting the Data
