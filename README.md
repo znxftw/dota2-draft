@@ -48,3 +48,7 @@ install.packages('h2o')
 - Execute the above lines with Shift + Enter 
 - Recomment them after they have been installed
 - Run each section one by one afterwards with Shift + Enter
+
+## 3. Results
+
+Using 2 layers in our Neural Network of 100 neurons each, we were able to achieve ~65% accuracy in our data with 100 epochs of training
