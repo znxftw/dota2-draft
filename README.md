@@ -25,3 +25,23 @@ If you wish to collect the data manually,
 pip install dota2api
 ```
 - Run the script linked above after changing Initialise() to Initialise(*"your API key"*) and modifying the script as you wish.
+
+## 2. Running the Neural Network
+
+We will be using R for simulating the Neural Network. If you wish to run the model yourself, download and install [R](https://cran.r-project.org/bin/windows/base/) and [RStudio](https://www.rstudio.com/products/rstudio/download/).
+
+After installing
+- Clone this repository with
+```bash
+git clone https://github.com/znxftw/dota2-draft.git
+```
+- Open */src/NeuralNetwork.R* in RStudio
+- Set home directory of the repository as the data directory
+- Uncomment the following lines
+```R
+install.packages('caTools')
+install.packages('h2o')
+```
+- Execute the above lines with Shift + Enter 
+- Recomment them after they have been installed
+- Run each section one by one afterwards with Shift + Enter
