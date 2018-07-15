@@ -26,6 +26,9 @@ pip install dota2api
 ```
 - Run the script linked above after changing Initialise() to Initialise(*"your API key"*) and modifying the script as you wish.
 
+My internet's firewall refused to do any more than ~1800 fetches. So we were limited to a small dataset of 1750 games.
+
+
 ## 2. Running the Neural Network
 
 We will be using R for simulating the Neural Network. If you wish to run the model yourself, download and install [R](https://cran.r-project.org/bin/windows/base/) and [RStudio](https://www.rstudio.com/products/rstudio/download/).
