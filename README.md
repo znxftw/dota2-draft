@@ -45,9 +45,9 @@ git clone https://github.com/znxftw/dota2-draft.git
 install.packages('caTools')
 install.packages('h2o')
 ```
-- Execute the above lines with Shift + Enter 
+- Execute the above lines with Ctrl + Enter 
 - Recomment them after they have been installed
-- Run each section one by one afterwards with Shift + Enter
+- Run each section one by one afterwards with Ctrl + Enter
 
 ## 3. Results
 
